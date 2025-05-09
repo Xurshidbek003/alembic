@@ -11,3 +11,5 @@ class News(Base):
     created_at = Column(Date, nullable=False)
     student_id = Column(Integer, ForeignKey('students.id'), nullable=False)
     view = Column(Integer, nullable=False, default=0)
+
+
